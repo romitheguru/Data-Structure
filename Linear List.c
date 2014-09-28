@@ -32,15 +32,18 @@ int main() {
 		scanf("%d",&ch);
 	
 		switch(ch) {
-			case 1: 	printf("Enter data : ");
-						scanf("%d",&num);
-						add_node(num);
-						break;
-			case 2: 	remove_node();
-						break;
-			case 3: 	view_list();
-						break;
-			case 4: 	exit(0);
+			case 1: printf("Enter data : ");
+					scanf("%d",&num);
+					add_node(num);
+					break;
+			
+			case 2: remove_node();
+					break;
+			
+			case 3: view_list();
+					break;
+			
+			case 4: exit(0);
 		}
 	}
 
