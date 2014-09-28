@@ -27,21 +27,21 @@ int main() {
 	
 	while(1) {
 		printf("This is linear list menu -->\n");
-		printf("(1) Add node\n(2) Delete node\n(3) View list\n(4) Exit\n");
+		printf("(1) Add node\n(2) Delete node\n(3) View list\n(4) Exit\n"); 
 		printf("Choose option ... ");
 		scanf("%d",&ch);
 	
 		switch(ch) {
 			case 1: printf("Enter data : ");
-					scanf("%d",&num);
-					add_node(num);
-					break;
+				scanf("%d",&num);
+				add_node(num);
+				break;
 			
 			case 2: remove_node();
-					break;
+				break;
 			
 			case 3: view_list();
-					break;
+				break;
 			
 			case 4: exit(0);
 		}
