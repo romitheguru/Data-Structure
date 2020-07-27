@@ -4,7 +4,7 @@ Data-Structure
 A repo of popular data structures implemented in Python.
 
 Linear Data Structures
-- Linked List
+- [Linked List](https://github.com/romitheguru/Data-Structure/blob/master/linked_list.py)
 - Stack
 - Queue
 - Double Linked List
